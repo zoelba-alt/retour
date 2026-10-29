@@ -98,12 +98,12 @@ export default async function Accueil({ searchParams }: Props) {
 
       <section className="mt-14 rounded-3xl bg-nuit px-6 py-8 text-creme">
         <p className="font-titre text-2xl font-semibold leading-snug">
-          Un client qui ne revient pas, c’est 240 € qui s’en vont.
+        Un client fidèle qui ne revient plus, c’est 240 € perdus par an.
         </p>
         <p className="mt-3 text-base leading-relaxed">
-          Exemple : une coupe à 30 €, huit visites par an. Retour vous coûte
-          1,30 € par jour. Un seul client ramené par le rappel suffit à
-          rembourser le mois.
+         Exemple : une coupe à 30 €, huit visites par an, ça fait 240 €. Retour
+             coûte 1,30 € par jour. Si un seul client revient grâce au rappel,
+             vous avez déjà couvert votre mois.
         </p>
       </section>
 
@@ -146,8 +146,7 @@ export default async function Accueil({ searchParams }: Props) {
           Offre fondateur : 39 € par mois
         </p>
         <p className="mt-2 text-base text-nuit">
-          Soit environ 1,30 € par jour. Je démarre avec quelques salons : au
-          début, je configure vos rappels avec vous, et je vous contacte par
+          Soit environ 1,30 € par jour. Au début, On configure vos rappels avec vous, et on vous contacte par
           email sous trois jours ouvrés après votre inscription.
         </p>
         <div className="mt-6">
